@@ -17,7 +17,162 @@
       <h1>Apply to be a tree planter</h1>
       <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </header>
+    <form>
+      <fieldset>
+        <legend>Personal details</legend>
+        <div>
+          <label for="name">Full name</label>
+          <input id="name" name="name" required>
+          <p class="italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+        </div>
+        <div>
+          <label for="nickname">What should we call you?</label>
+          <input id="nickname" name="nickname">
+          <p class="italic">What all your friends call you, e.g. “Liz”.</p>
+        </div>
+        <div>
+          <label for="birth">Date of birth</label>
+          <input id="birth" name="birth" placeholder="yyyy-mm-dd" requried>
+        </div>
+        <div>
+          <label for="shirt">T-shirt size</label>
+          <select id="shirt" name="shirt" required>
+            <option>Select a t-shirt size</option>
+            <option>Fitted: XS</option>
+            <option>Fitted: S</option>
+            <option>Fitted: M</option>
+            <option>Fitted: L</option>
+            <option>Fitted: XL</option>
+            <option>Straight-cut: XS</option>
+            <option>Straight-cut: S</option>
+            <option>Straight-cut: M</option>
+            <option>Straight-cut: L</option>
+            <option>Straight-cut: XL</option>
+          </select>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" requried>
+        </div>
+        <div>
+          <label for="tel">Phone number <span class="italic">(optional)</span></label>
+          <input id="tel" type="tel" name="tel">
+        </div>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend>Address</legend>
+        <div>
+          <label for="address">Street address</label>
+          <input id="address" name="address" requried>
+        </div>
+        <div>
+          <label for="city">City</label>
+          <input id="city" name="city" requried>
+        </div>
+        <div>
+          <label for="province">Province</label>
+          <select id="province" name="province" required>
+            <option>Select a province</option>
+            <option>Alberta</option>
+            <option>British Columbia</option>
+            <option>Manitoba</option>
+            <option>New Brunswick</option>
+            <option>Newfoundland & Labrador</option>
+            <option>Northwest Territories</option>
+            <option>Nova Scotia</option>
+            <option>Nunavut</option>
+            <option>Ontario</option>
+            <option>Prince Edward Island</option>
+            <option>Québec</option>
+            <option>Saskatchewan</option>
+            <option>Yukon</option>
+          </select>
+        </div>
+        <div>
+          <label for="postal">Postal code</label>
+          <input id="postal" name="postal" requried>
+        </div>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend>What activities are you interested in helping with?</legend>
+        <input id="dig" type="checkbox">
+        <label for="dig">Digging holes</label>
+        <input id="dirty" type="checkbox">
+        <label for="dirty">Getting dirty</label>
+        <input id="lifting" type="checkbox">
+        <label for="lifting">Lifting heavy objects</label>
+        <input id="driver" type="checkbox">
+        <label for="driver">Driving people</label>
+        <input id="transport" type="checkbox">
+        <label for="transport">Transporting trees</label>
+        <input id="photos" type="checkbox">
+        <label for="photos">Taking photos</label>
+        <input id="online" type="checkbox">
+        <label for="online">Online publishing</label>
+        <input id="manage" type="checkbox">
+        <label for="manage">Managing people</label>
+      </fieldset>
+      <fieldset>
+        <legend>Do you have any experience with the following?</legend>
+        <input id="shovels" type="checkbox">
+        <label for="shovels">Shovels</label>
+        <input id="gps" type="checkbox">
+        <label for="gps">Hand-held GPS</label>
+        <input id="blog" type="checkbox">
+        <label for="blog">Writing & blogging</label>
+        <input id="photog" type="checkbox">
+        <label for="photog">Photography</label>
+        <input id="climb" type="checkbox">
+        <label for="climb">Trail & hill climbing</label>
+        <input id="craft" type="checkbox">
+        <label for="craft">Bush craft</label>
+        <input id="atv" type="checkbox">
+        <label for="atv">ATVs</label>
+        <input id="identi" type="checkbox">
+        <label for="identi">Plant identification</label>
+        <input id="eventp" type="checkbox">
+        <label for="eventp">Special event planning</label>
+        <input id="speaking" type="checkbox">
+        <label for="speaking">Speaking to groups</label>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend>Do you have a valid driver’s license?</legend>
+        <input id="yes" type="radio" name="driverl">
+        <label for="yes">Yes</label>
+        <input id="no" type="radio" name="driverl">
+        <label for="no">No</label>
+      </fieldset>
+      <fieldset>
+        <legend>Do you have a pick-up truck you’d be willing to use?</legend>
+        <input id="yes" type="radio" name="driverl">
+        <label for="yes">Yes</label>
+        <input id="no" type="radio" name="driverl">
+        <label for="no">No</label>
+      </fieldset>
+      <fieldset>
+        <legend>Do you have up-to-date first-aid certification?</legend>
+        <input id="yes" type="radio" name="driverl">
+        <label for="yes">Yes</label>
+        <input id="no" type="radio" name="driverl">
+        <label for="no">No</label>
+      </fieldset>
+      <hr>
+      <fieldset>
+        <legend>Please let us know any comments or questions you may have. <span class="italic">(optional)</span></legend>
+        <textarea id="comments" name="comments"></textarea>
+      </fieldset>
+      <hr>
+      <div>
+        <button class="btn btn-light mega" type="submit">Apply</button>
+      </div>
+    </form>
   </section>
+  <footer>
+    <p>© Tree Hugger International Organization</p>
+  </footer>
 
 </body>
 </html>
