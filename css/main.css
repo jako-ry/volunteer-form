@@ -27,3 +27,19 @@ input {
 select {
   border-color: #6e8c62;
 }
+
+input[type="checked"] {
+  border: #6e8c62;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #70ad55;
+  border-color: #70ad55;
+  color: #fff;
+}
