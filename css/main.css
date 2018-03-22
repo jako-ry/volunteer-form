@@ -11,3 +11,19 @@ footer {
   background-color: #70ad55;
   color: #fff;
 }
+
+fieldset {
+  border: none;
+}
+
+hr {
+  border-color: #70ad55;
+}
+
+input {
+  border-color: #6e8c62;
+}
+
+select {
+  border-color: #6e8c62;
+}
