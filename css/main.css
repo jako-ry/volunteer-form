@@ -28,8 +28,12 @@ select {
   border-color: #6e8c62;
 }
 
-input[type="checked"] {
-  border: #6e8c62;
+textarea {
+  height: 160px;
+}
+
+.green {
+  color: #70ad55;
 }
 
 .btn {
